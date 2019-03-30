@@ -1,0 +1,30 @@
+{
+  "name": "error-if-index-not-valid",
+  "version": "1.0.0",
+  "description": "Function triggers error if a given index cannot exist in a given array length",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/error-if-index-not-valid.git"
+  },
+  "keywords": [
+    "array",
+    "index",
+    "validation",
+    "checking",
+    "error",
+    "message"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/error-if-index-not-valid/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "@writetome51/index-is-valid": "~1.0.0"
+  }
+}
