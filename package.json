@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/writetome51/error-if-index-not-valid/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/writetome51/error-if-index-not-valid#readme",
   "dependencies": {
     "@writetome51/index-is-valid": "~1.0.0"
   }
