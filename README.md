@@ -1,34 +1,36 @@
-# indexIsValid(index, arrayLength): boolean
+# errorIfIndexNotValid(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arrayLength<br>): void
 
-Returns true or false based on whether or not `index` can exist in `arrayLength`.  
-`index` can be negative or positive.
+Triggers error if `index` cannot exist in `arrayLength`.  
+`index` is allowed to be negative.
 
 ## Examples
 ```
-indexIsValid(1, 2); // --> true
+errorIfIndexNotValid(1, 2); // No error.
 
-indexIsValid(2, 2); // --> false
+errorIfIndexNotValid(2, 2);
+// "Error:  The entered index is not valid.  Whether positive or negative,
+// it exceeds the index range of the array."
 
-indexIsValid(-2, 2); // --> true
+errorIfIndexNotValid(-2, 2); // No error.
 
-indexIsValid(-3, 2); // --> false
+errorIfIndexNotValid(-3, 2);
+// "Error:  The entered index is not valid.  Whether positive or negative,
+// it exceeds the index range of the array."
 
-indexIsValid(1, 1); // --> false
-
-indexIsValid(-1, 1); // --> true
-
-indexIsValid(1, 0); // console: "Error:  Input must be an integer greater than zero"
+errorIfIndexNotValid(1, 1);
+// "Error:  The entered index is not valid.  Whether positive or negative,
+// it exceeds the index range of the array."
 ```
 
 ## Installation
-`npm install  @writetome51/index-is-valid`
+`npm install  error-if-index-not-valid`
 
 ## Loading
 ```
 // if using TypeScript:
-import { indexIsValid } from '@writetome51/index-is-valid';
+import { errorIfIndexNotValid } from 'error-if-index-not-valid';
 // if using ES5 JavaScript:
-var indexIsValid = require('@writetome51/index-is-valid').indexIsValid;
+var errorIfIndexNotValid = require('error-if-index-not-valid').errorIfIndexNotValid;
 ```
 
 ## License
