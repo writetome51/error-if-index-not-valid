@@ -23,14 +23,11 @@ errorIfIndexNotValid(1, 1);
 ```
 
 ## Installation
-`npm install  error-if-index-not-valid`
+`npm i  error-if-index-not-valid`
 
 ## Loading
-```
-// if using TypeScript:
+```js
 import { errorIfIndexNotValid } from 'error-if-index-not-valid';
-// if using ES5 JavaScript:
-var errorIfIndexNotValid = require('error-if-index-not-valid').errorIfIndexNotValid;
 ```
 
 ## License
